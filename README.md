@@ -1,6 +1,7 @@
 # MSSQL-Medallion-Architecture-Data-Warehouse
 This project demonstrates a robust, end-to-end data warehousing solution implemented entirely within Microsoft SQL Server. It showcases the Medallion Architecture (Bronze, Silver, and Gold layers) to transform raw data into high-quality, analytics-ready assets.
-**[Chalange found at DataWithBaraa GitHub](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):**
+
+[Challenge found at DataWithBaraa GitHub](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ## Project Overview
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:

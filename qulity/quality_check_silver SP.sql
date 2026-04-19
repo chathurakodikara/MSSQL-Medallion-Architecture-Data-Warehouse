@@ -5,14 +5,20 @@ Stored Procedure: Data Quality Check in Silver Layer (Test -> Silver)
 Author: Chathura Kodikara               Initiate Date: 2026-04-19
 
 Script Purpose:
-    This stored procedure check data quality in the 'silver' schema. 
-    It performs the following actions:
-    - check duplicate.
-    - string values has extra spaces.
+    This script performs various quality checks for data consistency, accuracy, 
+    and standardisation across the 'silver' layer. It includes checks for:
+    - Null or duplicate primary keys.
+    - Unwanted spaces in string fields.
+    - Data standardisation and consistency.
+    - Invalid date ranges and orders.
+    - Data consistency between related fields.
 
 Parameters:
-    None. 
-	  This stored procedure does not accept any parameters.
+    - None: This stored procedure does not accept any parameters.
+
+Usage Notes:
+    - Run these checks after loading the Silver Layer.
+    - Investigate and resolve any discrepancies found during the checks.
 
 Usage Example:
     EXEC silver.quality_check;
